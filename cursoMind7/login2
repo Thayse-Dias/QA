@@ -1,3 +1,5 @@
+Login com sucesso
+
 describe('Login', () => {
   it('Realizar login com sucesso', () => {
     // Arrange
@@ -12,6 +14,9 @@ describe('Login', () => {
     // Assert
     cy.url().should('eq', 'https://www.saucedemo.com/inventory.html')
   })
+
+ 
+Login inválido
 
   it('Realizar login com usuário inválido', () => {
     // Arrange
